@@ -1,0 +1,51 @@
+# Geotechnicalengineering — Edmonton
+
+> Geotechnical engineering services in Edmonton, Canada.
+
+## Services
+- [Anchors](https://edmonton.geotechnicalengineering.xyz/anchors/)
+- [Atterberg Limits](https://edmonton.geotechnicalengineering.xyz/atterberg-limits/)
+- [Cbr Road](https://edmonton.geotechnicalengineering.xyz/cbr-road/)
+- [Cpt Test](https://edmonton.geotechnicalengineering.xyz/cpt-test/)
+- [Deep Excavations](https://edmonton.geotechnicalengineering.xyz/deep-excavations/)
+- [Excavation Monitoring](https://edmonton.geotechnicalengineering.xyz/excavation-monitoring/)
+- [Excavations](https://edmonton.geotechnicalengineering.xyz/excavations/)
+- [Flexible Pavement](https://edmonton.geotechnicalengineering.xyz/flexible-pavement/)
+- [Footings](https://edmonton.geotechnicalengineering.xyz/footings/)
+- [Foundations](https://edmonton.geotechnicalengineering.xyz/foundations/)
+- [Grain Size](https://edmonton.geotechnicalengineering.xyz/grain-size/)
+- [Ground Improvement](https://edmonton.geotechnicalengineering.xyz/ground-improvement/)
+- [Grouting](https://edmonton.geotechnicalengineering.xyz/grouting/)
+- [In Situ Permeability](https://edmonton.geotechnicalengineering.xyz/in-situ-permeability/)
+- [Investigation](https://edmonton.geotechnicalengineering.xyz/investigation/)
+- [Lab In Situ](https://edmonton.geotechnicalengineering.xyz/lab-in-situ/)
+- [Laboratory](https://edmonton.geotechnicalengineering.xyz/laboratory/)
+- [Liquefaction](https://edmonton.geotechnicalengineering.xyz/liquefaction/)
+- [Masw](https://edmonton.geotechnicalengineering.xyz/masw/)
+- [Mat Foundations](https://edmonton.geotechnicalengineering.xyz/mat-foundations/)
+- [Piles](https://edmonton.geotechnicalengineering.xyz/piles/)
+- [Proctor Tests](https://edmonton.geotechnicalengineering.xyz/proctor-tests/)
+- [Resistivity](https://edmonton.geotechnicalengineering.xyz/resistivity/)
+- [Retaining Walls](https://edmonton.geotechnicalengineering.xyz/retaining-walls/)
+- [Rigid Pavement](https://edmonton.geotechnicalengineering.xyz/rigid-pavement/)
+- [Road Geotechnics](https://edmonton.geotechnicalengineering.xyz/road-geotechnics/)
+- [Sand Cone Density](https://edmonton.geotechnicalengineering.xyz/sand-cone-density/)
+- [Seismic](https://edmonton.geotechnicalengineering.xyz/seismic/)
+- [Seismic Isolation](https://edmonton.geotechnicalengineering.xyz/seismic-isolation/)
+- [Seismic Microzonation](https://edmonton.geotechnicalengineering.xyz/seismic-microzonation/)
+- [Seismic Refraction](https://edmonton.geotechnicalengineering.xyz/seismic-refraction/)
+- [Slope Stability](https://edmonton.geotechnicalengineering.xyz/slope-stability/)
+- [Slopes](https://edmonton.geotechnicalengineering.xyz/slopes/)
+- [Soft Ground Tunnels](https://edmonton.geotechnicalengineering.xyz/soft-ground-tunnels/)
+- [Spt Drilling](https://edmonton.geotechnicalengineering.xyz/spt-drilling/)
+- [Stone Columns](https://edmonton.geotechnicalengineering.xyz/stone-columns/)
+- [Test Pits](https://edmonton.geotechnicalengineering.xyz/test-pits/)
+- [Triaxial](https://edmonton.geotechnicalengineering.xyz/triaxial/)
+- [Vibrocompaction](https://edmonton.geotechnicalengineering.xyz/vibrocompaction/)
+
+## Contact
+- Website: https://edmonton.geotechnicalengineering.xyz/
+
+## About
+This site provides geotechnical engineering services in Edmonton, Canada.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
