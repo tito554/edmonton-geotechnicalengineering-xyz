@@ -1,269 +1,160 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Geotechnical Excavation Monitoring in Edmonton</title>
-<meta name="description" content="Instrumentation and monitoring for deep excavations in Edmonton's glacial till and river valley soils. We deploy inclinometers, piezometers, and crack gauges with NBCC-compliant reporting for you">
-<link rel="canonical" href="https://edmonton.geotechnicalengineering.xyz/excavation-monitoring/">
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Geotechnical Excavation Monitoring in Edmonton">
-<meta property="og:description" content="Instrumentation and monitoring for deep excavations in Edmonton's glacial till and river valley soils. We deploy inclinometers, piezometers, and crack gauges with NBCC-compliant reporting for you">
-<meta property="og:url" content="https://edmonton.geotechnicalengineering.xyz/excavation-monitoring/">
-<meta property="og:site_name" content="Geotechnicalengineering">
-<meta property="og:image" content="https://edmonton.geotechnicalengineering.xyz/img/monitoreo-excavaciones-5.webp">
-<meta property="og:locale" content="en_CA">
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Geotechnical Excavation Monitoring in Edmonton">
-<meta name="twitter:description" content="Instrumentation and monitoring for deep excavations in Edmonton's glacial till and river valley soils. We deploy inclinometers, piezometers, and crack gauges with NBCC-compliant reporting for you">
+<!DOCTYPE html><html lang="en"><head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Geotechnical Excavation Monitoring in Edmonton</title><meta name="description" content="Instrumentation and monitoring for deep excavations in Edmonton's glacial till and river valley soils. We"><link rel="canonical" href="https://edmonton.geotechnicalengineering.xyz/excavation-monitoring/"><meta property="og:type" content="website"><meta property="og:title" content="Geotechnical Excavation Monitoring in Edmonton"><meta property="og:description" content="Instrumentation and monitoring for deep excavations in Edmonton's glacial till and river valley soils. We"><meta property="og:url" content="https://edmonton.geotechnicalengineering.xyz/excavation-monitoring/"><meta property="og:site_name" content="Geotechnicalengineering"><meta property="og:image" content="https://edmonton.geotechnicalengineering.xyz/img/monitoreo-excavaciones-5.webp"><meta property="og:locale" content="en_CA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Geotechnical Excavation Monitoring in Edmonton"><meta name="twitter:description" content="Instrumentation and monitoring for deep excavations in Edmonton's glacial till and river valley soils. We deploy inclinometers, piezometers, and crack gauges with NBCC-compliant reporting for you">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Geotechnical Excavation Monitoring in Edmonton"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Geotechnical Excavation Monitoring in Edmonton", "description": "Instrumentation and monitoring for deep excavations in Edmonton's glacial till and river valley soils. We deploy inclinometers, piezometers, and crack gauges with NBCC-compliant reporting for you", "areaServed": {"@type": "City", "name": "Edmonton"}, "provider": {"@type": "LocalBusiness", "name": "Geotechnicalengineering", "email": "contact@geotechnicalengineering.xyz", "telephone": "", "address": {"@type": "PostalAddress", "addressLocality": "Edmonton", "addressCountry": "CA"}}, "url": "https://edmonton.geotechnicalengineering.xyz/excavation-monitoring/"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does excavation monitoring cost for a typical Edmonton infill project?", "acceptedAnswer": {"@type": "Answer", "text": "For a single-family infill excavation with one inclinometer casing, two piezometers, and monthly readings over a six-month construction period, budgets typically run between CA$1,100 and CA$3,690. The spread depends on access conditions in older neighborhoods like Westmount or Glenora, whether we are monitoring a neighboring heritage home, and the reporting frequency the engineer requires."}}, {"@type": "Question", "name": "When does the City of Edmonton require a monitoring program?", "acceptedAnswer": {"@type": "Answer", "text": "The requirement usually comes from the geotechnical engineer of record rather than the city directly, but Edmonton's permitting process will flag any excavation deeper than three metres adjacent to a public right-of-way or an existing building. The Drainage Bylaw also triggers the need for a pre-construction condition survey if dewatering could influence settlement on neighboring properties."}}, {"@type": "Question", "name": "What instruments do you use in glacial till versus river valley sands?", "acceptedAnswer": {"@type": "Answer", "text": "In glacial till we rely heavily on inclinometers and standpipe piezometers because the low permeability gives us time to react to pressure changes. In the Saskatchewan Sands and Gravels of the river valley, we add vibrating wire piezometers with real-time telemetry and automated total station prisms because the material can drain quickly and deform with little warning once the water table is breached."}}, {"@type": "Question", "name": "How do you handle monitoring during Edmonton's winter months?", "acceptedAnswer": {"@type": "Answer", "text": "Frost penetration here can exceed two metres in an open excavation. We protect inclinometer casings with insulated enclosures and extend the bottom of the casing well below the frost zone. Crack gauges on adjacent buildings are read alongside temperature sensors so we can separate thermal expansion and contraction of the structure from real excavation-induced movement."}}]}</script>
-<style>
-:root {
-    --primary: #D4A017;
-    --accent: #EAB308;
-    --dark: #0C1B33;
-    --bg: #FAF9F6;
-    --text: #1E293B;
-    --font-h: 'Montserrat', 'Segoe UI', sans-serif;
-    --font-b: 'Open Sans', 'Segoe UI', sans-serif;
+<style>/*afx*/@media (max-width: 900px) {
+.sidebar { display: none; }
+.content-area { flex-direction: column; }
+.header-top { flex-direction: column; text-align: center; }
+main { padding: 1.5rem; }
+.container { padding: 1rem; }
 }
-* { margin:0; padding:0; box-sizing:border-box; }
-body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
-a { color: var(--primary); text-decoration: none; }
-h1, h2, h3, h4 { font-family: var(--font-h); }
-
-.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
 .sidebar {
-    width: 240px; background: var(--dark); color: white; flex-shrink: 0;
-    border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
-    max-height: calc(100vh - 2rem); overflow-y: auto;
+width: 240px; background: var(--dark); color: white; flex-shrink: 0;
+border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
+max-height: calc(100vh - 2rem); overflow-y: auto;
 }
-/* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
-.sidebar { padding: .5rem 0; }
-/* Pattern moderno cat-name + cat-toggle (REGLA 30b) */
-.sidebar .cat-item { border-top: 1px solid rgba(255,255,255,0.04); }
-.sidebar .cat-row {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
-    transition: background .15s;
-}
-.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
-.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
-.sidebar .cat-name:hover { color: #c9a961; }
-.sidebar .cat-toggle {
-    background: none; border: 0; color: inherit; cursor: pointer;
-    padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
-}
-.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
-.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
-.sidebar .cat-sub {
-    background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
-}
-.sidebar .cat-sub[hidden] { display: none; }
-.sidebar .cat-sub a {
-    display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
-    font-size: .78rem; transition: all .15s; text-decoration: none;
-    border-left: 2px solid transparent;
-}
-.sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
-.sidebar .home {
-    display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
-    font-size: .85rem; font-weight: 600;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    text-decoration: none;
-}
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
-
-header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
-.header-contact a:hover { color: white; }
-header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
-.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
 main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
+.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
+.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
 main section { margin-bottom: 1.5rem; }
-main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
-main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-main p { margin-bottom: 1rem; color: #334155; }
-
-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
+.cta .whatsapp-btn:hover { background: #1eb853; }
+.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
+.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
+.sidebar .cat-sub[hidden] { display: none; }
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
 th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
-tr:nth-child(even) { background: #f8fafc; }
-
-.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
-.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
-.servicio:hover { border-color: var(--primary); }
-.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
+main p { margin-bottom: 1rem; color: #334155; }
+.sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
+main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
+.sidebar .home {
+display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
+font-size: .85rem; font-weight: 600;
+border-bottom: 1px solid rgba(255,255,255,0.1);
+text-decoration: none;
+}
 .servicio p { margin: 0; font-size: .9rem; color: #475569; }
-
+.header-contact a:hover { color: white; }
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
 details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
-summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
-summary::-webkit-details-marker { display: none; }
-summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
-details[open] summary::before { content: '− '; }
-summary:hover { background: rgba(0,0,0,0.02); }
-details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-
-.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
+.servicio:hover { border-color: var(--primary); }
+tr:nth-child(even) { background: #f8fafc; }
 .cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
-.cta .whatsapp-btn {
-    display: inline-block; background: #25D366; color: white;
-    padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
-    margin-bottom: 1.25rem; font-size: 1rem;
-}
-.cta .whatsapp-btn:hover { background: #1eb853; }
+summary::-webkit-details-marker { display: none; }
+body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
+header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 .cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
-.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
-.cta .contacto-line a { color: white; text-decoration: underline; }
-
-footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
-footer a { color: rgba(255,255,255,0.85); }
-
-#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-
-@media (max-width: 900px) {
-    .sidebar { display: none; }
-    .content-area { flex-direction: column; }
-    .header-top { flex-direction: column; text-align: center; }
-    main { padding: 1.5rem; }
-    .container { padding: 1rem; }
+:root {
+--primary: #D4A017;
+--accent: #EAB308;
+--dark: #0C1B33;
+--bg: #FAF9F6;
+--text: #1E293B;
+--font-h: 'Montserrat', 'Segoe UI', sans-serif;
+--font-b: 'Open Sans', 'Segoe UI', sans-serif;
 }
-</style>
-<link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#0F766E"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style id="post-fixes-v2">
+.sidebar .cat-toggle {
+background: none; border: 0; color: inherit; cursor: pointer;
+padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
+}
+table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
+* { margin:0; padding:0; box-sizing:border-box; }
+footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
+.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
+/* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
+.sidebar { padding: .5rem 0; }
+#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
+.sidebar .cat-row {
+display: flex; justify-content: space-between; align-items: center;
+padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
+transition: background .15s;
+}
+.cta .contacto-line a { color: white; text-decoration: underline; }
+.sidebar .cat-sub a {
+display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
+font-size: .78rem; transition: all .15s; text-decoration: none;
+border-left: 2px solid transparent;
+}
+.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
+.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
+.sidebar .cat-name:hover { color: #c9a961; }
+.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+footer a { color: rgba(255,255,255,0.85); }
+.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
+h1, h2, h3, h4 { font-family: var(--font-h); }
+header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
+.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
+.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
+a { color: var(--primary); text-decoration: none; }
+.sidebar .cat-sub {
+background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
+}
+details[open] summary::before { content: '− '; }
+/* Pattern moderno cat-name + cat-toggle (REGLA 30b) */
+.sidebar .cat-item { border-top: 1px solid rgba(255,255,255,0.04); }
+.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+summary:hover { background: rgba(0,0,0,0.02); }
+summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
+main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
+.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
+.cta .whatsapp-btn {
+display: inline-block; background: #25D366; color: white;
+padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
+margin-bottom: 1.25rem; font-size: 1rem;
+}
+summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#0F766E"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style>/*afx*/.navbar .nav{gap:.55rem !important}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
 /* Inline links visibles en prosa */
 p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+body>*{max-width:100vw}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
 p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
 /* Sidebar hover adaptive */
 aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
 aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
-aside .cat-name,aside .sb-home,aside nav a{color:inherit}
-aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
-/* Cat-toggle sin caja */
-.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
-.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
-/* Nav-arrow sin caja */
-.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
 /* Navbar compacto */
-.navbar{padding:.65rem 1rem !important}
-.navbar .nav{gap:.55rem !important}
-.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
-.logo-box,.brand-name,.brand{font-size:.82rem !important}
-/* Layout defensive */
-body{overflow-x:clip;max-width:100vw}
-body>*{max-width:100vw}
-</style>
-<style id="dd-fix-v24">.nav-item.has-dd:nth-last-child(-n+5) .dd{left:auto;right:-1rem}</style><!--seo4u-pixels--><script>(function(){var L=0;function load(){if(L)return;L=1;!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq("init","384176023222929");fbq("track","PageView");}["scroll","mousemove","touchstart","keydown","click"].forEach(function(e){window.addEventListener(e,load,{passive:!0,once:!0})});setTimeout(load,4000);})();</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=384176023222929&ev=PageView&noscript=1"/></noscript><!--/seo4u-pixels--></head>
-<body>
+.navbar{padding:.65rem 1rem !important}</style><style>/*afx*/.nav-item.has-dd:nth-last-child(-n+5) .dd{left:auto;right:-1rem}</style><script>(function(){var L=0;function load(){if(L)return;L=1;!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq("init","384176023222929");fbq("track","PageView");}["scroll","mousemove","touchstart","keydown","click"].forEach(function(e){window.addEventListener(e,load,{passive:!0,once:!0})});setTimeout(load,4000);})();</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=384176023222929&ev=PageView&noscript=1"/></noscript>  <link rel="preload" as="image" href="/img/monitoreo-excavaciones-5.webp" fetchpriority="high">
 
-<header>
-    <div class="container">
-        <div class="header-top">
-            <div>
-                <div style="display:inline-flex;flex-direction:column;gap:2px;"><span style="font-family:'Montserrat',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:24px;">Edmonton</span><div style="height:3px;width:60%;background:#D4A017;border-radius:2px;"></div></div>
-                <div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Edmonton, Canada</div>
-            </div>
-            <div class="header-contact">
-                <a href="mailto:contact@geotechnicalengineering.xyz">contact@geotechnicalengineering.xyz</a>
-            </div>
-        </div>
-        <nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Home</a></li><li>›</li><li>Excavations & Underground</li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Geotechnical Excavation Monitoring in Edmonton</li></ol></nav>
-        <h1>Geotechnical Excavation Monitoring in Edmonton</h1>
-    </div>
-</header>
-
-<div class="container">
-    <div class="content-area">
-        <aside class="sidebar">
-            <nav><a href="index.html" class="home">Home</a><div class="cat-item" data-cat="investigation"><div class="cat-row"><a href="/investigation/" class="cat-name">Investigation</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Investigation"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cpt-test/">CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="lab-in-situ"><div class="cat-row"><a href="/lab-in-situ/" class="cat-name">In-Situ Testing</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir In-Situ Testing"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/sand-cone-density/">Field density test (sand cone method)</a></div></div><div class="cat-item" data-cat="laboratory"><div class="cat-row"><a href="/laboratory/" class="cat-name">Laboratory</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratory"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/atterberg-limits/">Atterberg limits</a><a href="/grain-size/">Grain size analysis (sieve + hydrometer)</a></div></div><div class="cat-item" data-cat="foundations"><div class="cat-row"><a href="/foundations/" class="cat-name">Foundations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Foundations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/piles/">Pile foundation design</a></div></div><div class="cat-item" data-cat="slopes"><div class="cat-row"><a href="/slopes/" class="cat-name">Slopes & Walls</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Slopes & Walls"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/anchors/">Active/passive anchor design</a><a href="/retaining-walls/">Retaining wall design</a><a href="/slope-stability/">Slope stability analysis</a></div></div><div class="cat-item" data-cat="ground-improvement"><div class="cat-row"><a href="/ground-improvement/" class="cat-name">Ground improvement</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Ground improvement"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/stone-columns/">Stone column design</a><a href="/vibrocompaction/">Vibrocompaction design</a></div></div><div class="cat-item" data-cat="seismic"><div class="cat-row"><a href="/seismic/" class="cat-name">Seismic</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Seismic"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/seismic-isolation/">Base isolation seismic design</a><a href="/seismic-microzonation/">Seismic microzonation</a><a href="/liquefaction/">Soil liquefaction analysis</a></div></div><div class="cat-item" data-cat="road-geotechnics"><div class="cat-row"><a href="/road-geotechnics/" class="cat-name">Roadway</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Roadway"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cbr-road/">CBR study for road design</a><a href="/flexible-pavement/">Flexible pavement design</a><a href="/rigid-pavement/">Rigid pavement design</a></div></div><div class="cat-item" data-cat="excavations"><div class="cat-row"><a href="/excavations/" class="cat-name">Underground Excavations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Underground Excavations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels</a><a href="/deep-excavations/">Geotechnical design of deep excavations</a><a href="/excavation-monitoring/">Geotechnical excavation monitoring</a></div></div></nav>
-        </aside>
-        <main>
-            <section><p>The telltale sign of a properly monitored excavation in Edmonton is that yellow PVC standpipe sticking out of the ground, the one with the inclinometer cable snaking into a readout unit. That tube tells a story of millimetre-scale movements happening twenty metres below street level. Our team deploys these instruments in the North Saskatchewan River valley formations and the stiff glacial till that defines much of the city's subsurface. Between the downtown tower projects and the LRT expansions, Edmonton's construction profile demands a monitoring approach that can handle freeze-thaw cycles, overconsolidated clays, and the occasional artesian condition in buried preglacial channels. When you are going down three or four parking levels next to a century-old building on Jasper Avenue, the conversation stops being about whether to monitor and becomes about how many data points per day you need. We combine traditional manual readings with automated <a data-interlink="1" href="/deep-excavations/">inclinometer arrays and settlement cells</a> that push data to the engineer's phone before the morning site meeting.</p></section>
-
-            <blockquote style="border-left:4px solid #D4A017;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">An inclinometer casing that shows zero lateral deflection for three consecutive weeks in Edmonton till is either installed in bedrock or the battery on the probe is dead.</blockquote>
-
-            
-
-            <section>
-                <h2>Scope of work in Edmonton</h2>
-                <div>A common mistake on Edmonton sites is assuming that a stiff glacial till will not move. The till is overconsolidated, sure, but it is also fissured and can relax horizontally once the overburden is removed. We have seen excavations on the south side where the shoring looked rock-solid for three weeks, then movement spiked after a heavy rain saturated the upper clay crust. That is why our monitoring programs always pair inclinometer casings with <a href="/in-situ-permeability/">vibrating wire piezometers</a> placed at two elevations in the till: one just behind the shoring face and one deeper, to track whether the water table is responding to surface infiltration or to a deeper aquifer. The city's Drainage Bylaw also requires baseline condition surveys for adjacent properties, so we run pre-construction crack gauge installations and vibration monitoring with triaxial geophones whenever blasting or rock hammering is anticipated in the Edmonton Formation sandstone.</div>
-            </section>
-
-            <figure style="margin:2rem auto;text-align:center;max-width:60%"><img src="/img/monitoreo-excavaciones-5.webp" alt="Geotechnical Excavation Monitoring in Edmonton" width="600" height="300" loading="lazy" decoding="async" style="width:100%;max-height:160px;object-fit:cover;border-radius:8px"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Geotechnical Excavation Monitoring in Edmonton</figcaption></figure>
-
-            <div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D4A017;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D4A017;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typical value</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Monitoring frequency (active phase)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Daily to twice-weekly, depending on movement rate</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Inclinometer casing depth</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">3–5 m below excavation subgrade</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Piezometer type</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Vibrating wire with automatic data logger</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Crack gauge resolution</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0.1 mm (manual) or 0.01 mm (digital)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Survey benchmark stability</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Deep rod monument anchored in undisturbed till</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Trigger threshold (urban)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Typically 10–25 mm cumulative or 2 mm/day rate</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Reporting standard</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">NBCC 2015 Part 4, CAN/CSA-A23.3 commentary</td></tr></tbody></table></div>
-
-            <div style="margin:2rem 0"><h2>Demonstration video</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/YrcPUyWmLRU?rel=0" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div>
-
-            <section>
-                <h2>Typical technical challenges in Edmonton</h2>
-                <p>Edmonton can swing from minus thirty in January to a chinook melt in February within a single week. That thermal shock matters for excavation monitoring because the top two metres of ground freeze solid, creating a rigid crust that masks movement in the instruments below. A reading that looks stable at the surface can hide a developing slip plane at depth. Our approach accounts for seasonal stiffening by referencing deep inclinometer zones against a fixed datum in unfrozen till, and by interpreting crack gauge data alongside temperature logs. In the river valley, where many high-end residential excavations cut into the Saskatchewan Sands and Gravels, water inflow can destabilize the face within hours. We have learned to install real-time piezometric alarms in those settings, tying the trigger levels directly to the contractor's emergency response plan.</p>
-            </section>
-
-            
-    <section class="block mid-cta" style="padding:2rem 0">
-      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
-        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Need a geotechnical assessment?</h3>
-        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Reply within 24h.</p>
-        <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnicalengineering.xyz" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contact@geotechnicalengineering.xyz</a></div>
-      </div>
-    </section>
-
-            <div class="normas">
-                <strong>Applicable standards:</strong> NBCC 2015 Part 4 – Structural Design, CSA A23.3-14 – Design of Concrete Structures (excavation support), ASTM D6230-13 – Inclinometer Monitoring, City of Edmonton Drainage Bylaw 18093 – Adjacent Property Protection, Alberta OH&S Code Part 22 – Excavations and Tunnels
-            </div>
-
-            <section>
-                <h2>Our services</h2>
-                <p>We provide a full instrumentation package that goes beyond placing a few settlement points on the sidewalk. Our Edmonton monitoring work covers the entire lifecycle of the excavation, from pre-construction condition surveys to post-backfill verification readings.</p>
-                <style>.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicios-grid a.servicio-link:hover{border-color:#D4A017;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid a.servicio-link:hover h3{color:#D4A017}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#D4A017;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}/*sbhfix*/aside .sb-home{color:#FFF !important}</style><div class="servicios-grid"><div class="servicio"><h3>Inclinometer installation and reading</h3><p>Casing installed through overburden into stable till or bedrock. Readings taken with a digital MEMS probe and plotted as cumulative deflection versus depth, with alarm thresholds flagged per the engineer's specification.</p></div><div class="servicio"><h3>Piezometric and groundwater monitoring</h3><p>Vibrating wire piezometers grouted into discrete zones within the till or sand layers. Data loggers upload readings hourly, with SMS alerts if pore pressure exceeds the dewatering system's design capacity.</p></div><div class="servicio"><h3>Crack and vibration surveys</h3><p>Pre-construction condition documentation on all adjacent structures within the zone of influence, including Avongard crack gauges, photogrammetric records, and triaxial geophone monitoring during rock removal.</p></div><div class="servicio"><h3>Automated total station networks</h3><p>Robotic total stations tracking prism targets on shoring, adjacent buildings, and utility bridges. Data is processed overnight and delivered as a web-based report showing 3D displacement vectors and rate-of-change graphs.</p></div></div>
-            </section>
-
-            <section>
-                <h2>Frequently asked questions</h2>
-                <details><summary>How much does excavation monitoring cost for a typical Edmonton infill project?</summary><p>For a single-family infill excavation with one inclinometer casing, two piezometers, and monthly readings over a six-month construction period, budgets typically run between CA$1,100 and CA$3,690. The spread depends on access conditions in older neighborhoods like Westmount or Glenora, whether we are monitoring a neighboring heritage home, and the reporting frequency the engineer requires.</p></details><details><summary>When does the City of Edmonton require a monitoring program?</summary><p>The requirement usually comes from the geotechnical engineer of record rather than the city directly, but Edmonton's permitting process will flag any excavation deeper than three metres adjacent to a public right-of-way or an existing building. The Drainage Bylaw also triggers the need for a pre-construction condition survey if dewatering could influence settlement on neighboring properties.</p></details><details><summary>What instruments do you use in glacial till versus river valley sands?</summary><p>In glacial till we rely heavily on inclinometers and standpipe piezometers because the low permeability gives us time to react to pressure changes. In the Saskatchewan Sands and Gravels of the river valley, we add vibrating wire piezometers with real-time telemetry and automated total station prisms because the material can drain quickly and deform with little warning once the water table is breached.</p></details><details><summary>How do you handle monitoring during Edmonton's winter months?</summary><p>Frost penetration here can exceed two metres in an open excavation. We protect inclinometer casings with insulated enclosures and extend the bottom of the casing well below the frost zone. Crack gauges on adjacent buildings are read alongside temperature sensors so we can separate thermal expansion and contraction of the structure from real excavation-induced movement.</p></details>
-            </section>
-
-            <section>
-                <h2>Coverage in Edmonton</h2>
-                <link rel="stylesheet" href="/css/leaflet-f859.css"/>
-                <div id="mapa-ciudad"></div>
-                <script src="/js/leaflet-f859.js"></script>
-                <script>
-                    var map = L.map('mapa-ciudad').setView([53.5462,-113.4912], 12);
-                    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',{attribution:'&copy; OSM &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);L.marker([53.5462,-113.4912],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36]})}).addTo(map);
-                    L.circle([53.5462,-113.4912],{radius:3000,color:'#D4A017',fillColor:'#EAB308',fillOpacity:0.18,weight:2}).addTo(map).bindPopup('Coverage area — Edmonton');
-                </script>
-            </section>
-        </main>
-    </div>
-</div>
-
-<footer style="background:#0C1B33;color:rgba(255,255,255,.85);padding:3rem 1.5rem 2rem"><div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:2rem"><div><h4 style="color:#FFF;font-size:1rem;margin:0 0 .8rem">GEOTECHNICALENGINEERING</h4><p style="margin:0;font-size:.9rem;color:rgba(255,255,255,.7);line-height:1.6">Edmonton, Canada</p></div><div><h4 style="color:#FFF;font-size:.92rem;margin:0 0 .8rem">SERVICES</h4><a href="/" style="color:rgba(255,255,255,.75);text-decoration:none;display:block;padding:.25rem 0">Services</a></div><div><h4 style="color:#FFF;font-size:.92rem;margin:0 0 .8rem">CONTACT</h4><p style="margin:0;font-size:.9rem;line-height:1.8"><a href="mailto:contact@geotechnicalengineering.xyz" style="color:#FFF;text-decoration:none">contact@geotechnicalengineering.xyz</a></p></div></div><div style="max-width:1100px;margin:2rem auto 0;padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.1);text-align:center;font-size:.8rem;color:rgba(255,255,255,.5)">© 2026 Geotechnicalengineering. All rights reserved.</div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong> <a href="https://www.csagroup.org/" rel="nofollow noopener" target="_blank">CSA Group Standards</a> · <a href="https://www.astm.org/products-services/standards-and-publications.html" rel="nofollow noopener" target="_blank">ASTM Standards</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-05-14" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-05-14</div></footer>
-
-<script>
+<link rel="alternate" hreflang="en-CA" href="https://edmonton.geotechnicalengineering.xyz/excavation-monitoring/">
+<link rel="alternate" hreflang="x-default" href="https://edmonton.geotechnicalengineering.xyz/excavation-monitoring/">
+</head><body><header><div class="container"><div class="header-top"><div><div style="display:inline-flex;flex-direction:column;gap:2px;"><span style="font-family:'Montserrat',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:24px;">Edmonton</span><div style="height:3px;width:60%;background:#D4A017;border-radius:2px;"></div></div><div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Edmonton, Canada</div></div><div class="header-contact"><a href="mailto:contact@geotechnicalengineering.xyz">contact@geotechnicalengineering.xyz</a></div></div><nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Home</a></li><li>›</li><li>Excavations & Underground</li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Geotechnical Excavation Monitoring in Edmonton</li></ol></nav><h1>Geotechnical Excavation Monitoring in Edmonton</h1></div></header><div class="container"><div class="content-area"><aside class="sidebar"><nav><a href="index.html" class="home">Home</a><div class="cat-item" data-cat="investigation"><div class="cat-row"><a href="/investigation/" class="cat-name">Investigation</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Investigation"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cpt-test/">CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="lab-in-situ"><div class="cat-row"><a href="/lab-in-situ/" class="cat-name">In-Situ Testing</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir In-Situ Testing"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/sand-cone-density/">Field density test (sand cone method)</a></div></div><div class="cat-item" data-cat="laboratory"><div class="cat-row"><a href="/laboratory/" class="cat-name">Laboratory</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratory"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/atterberg-limits/">Atterberg limits</a><a href="/grain-size/">Grain size analysis (sieve + hydrometer)</a></div></div><div class="cat-item" data-cat="foundations"><div class="cat-row"><a href="/foundations/" class="cat-name">Foundations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Foundations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/piles/">Pile foundation design</a></div></div><div class="cat-item" data-cat="slopes"><div class="cat-row"><a href="/slopes/" class="cat-name">Slopes & Walls</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Slopes & Walls"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/anchors/">Active/passive anchor design</a><a href="/retaining-walls/">Retaining wall design</a><a href="/slope-stability/">Slope stability analysis</a></div></div><div class="cat-item" data-cat="ground-improvement"><div class="cat-row"><a href="/ground-improvement/" class="cat-name">Ground improvement</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Ground improvement"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/stone-columns/">Stone column design</a><a href="/vibrocompaction/">Vibrocompaction design</a></div></div><div class="cat-item" data-cat="seismic"><div class="cat-row"><a href="/seismic/" class="cat-name">Seismic</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Seismic"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/seismic-isolation/">Base isolation seismic design</a><a href="/seismic-microzonation/">Seismic microzonation</a><a href="/liquefaction/">Soil liquefaction analysis</a></div></div><div class="cat-item" data-cat="road-geotechnics"><div class="cat-row"><a href="/road-geotechnics/" class="cat-name">Roadway</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Roadway"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cbr-road/">CBR study for road design</a><a href="/flexible-pavement/">Flexible pavement design</a><a href="/rigid-pavement/">Rigid pavement design</a></div></div><div class="cat-item" data-cat="excavations"><div class="cat-row"><a href="/excavations/" class="cat-name">Underground Excavations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Underground Excavations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels</a><a href="/deep-excavations/">Geotechnical design of deep excavations</a><a href="/excavation-monitoring/">Geotechnical excavation monitoring</a></div></div></nav></aside><main><section><p>The telltale sign of a properly monitored excavation in Edmonton is that yellow PVC standpipe sticking out of the ground, the one with the inclinometer cable snaking into a readout unit. That tube tells a story of millimetre-scale movements happening twenty metres below street level. Our team deploys these instruments in the North Saskatchewan River valley formations and the stiff glacial till that defines much of the city's subsurface. Between the downtown tower projects and the LRT expansions, Edmonton's construction profile demands a monitoring approach that can handle freeze-thaw cycles, overconsolidated clays, and the occasional artesian condition in buried preglacial channels. When you are going down three or four parking levels next to a century-old building on Jasper Avenue, the conversation stops being about whether to monitor and becomes about how many data points per day you need. We combine traditional manual readings with automated <a data-interlink="1" href="/deep-excavations/">inclinometer arrays and settlement cells</a> that push data to the engineer's phone before the morning site meeting.</p></section><blockquote style="border-left:4px solid #D4A017;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">An inclinometer casing that shows zero lateral deflection for three consecutive weeks in Edmonton till is either installed in bedrock or the battery on the probe is dead.</blockquote><section><h2>Scope of work in Edmonton</h2><div>A common mistake on Edmonton sites is assuming that a stiff glacial till will not move. The till is overconsolidated, sure, but it is also fissured and can relax horizontally once the overburden is removed. We have seen excavations on the south side where the shoring looked rock-solid for three weeks, then movement spiked after a heavy rain saturated the upper clay crust. That is why our monitoring programs always pair inclinometer casings with <a href="/in-situ-permeability/">vibrating wire piezometers</a> placed at two elevations in the till: one just behind the shoring face and one deeper, to track whether the water table is responding to surface infiltration or to a deeper aquifer. The city's Drainage Bylaw also requires baseline condition surveys for adjacent properties, so we run pre-construction crack gauge installations and vibration monitoring with triaxial geophones whenever blasting or rock hammering is anticipated in the Edmonton Formation sandstone.</div></section><figure style="margin:2rem auto;text-align:center;max-width:60%"><img src="/img/monitoreo-excavaciones-5.webp" alt="Geotechnical Excavation Monitoring in Edmonton" width="600" height="300" loading="eager" decoding="async" style="width:100%;max-height:160px;object-fit:cover;border-radius:8px" fetchpriority="high"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Geotechnical Excavation Monitoring in Edmonton</figcaption></figure><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D4A017;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D4A017;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typical value</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Monitoring frequency (active phase)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Daily to twice-weekly, depending on movement rate</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Inclinometer casing depth</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">3–5 m below excavation subgrade</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Piezometer type</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Vibrating wire with automatic data logger</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Crack gauge resolution</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0.1 mm (manual) or 0.01 mm (digital)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Survey benchmark stability</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Deep rod monument anchored in undisturbed till</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Trigger threshold (urban)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Typically 10–25 mm cumulative or 2 mm/day rate</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Reporting standard</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">NBCC 2015 Part 4, CAN/CSA-A23.3 commentary</td></tr></tbody></table></div><div style="margin:2rem 0"><h2>Field demonstration</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube-nocookie.com/embed/YrcPUyWmLRU?rel=0" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div><section><h2>Typical technical challenges in Edmonton</h2><p>Edmonton can swing from minus thirty in January to a chinook melt in February within a single week. That thermal shock matters for excavation monitoring because the top two metres of ground freeze solid, creating a rigid crust that masks movement in the instruments below. A reading that looks stable at the surface can hide a developing slip plane at depth. Our approach accounts for seasonal stiffening by referencing deep inclinometer zones against a fixed datum in unfrozen till, and by interpreting crack gauge data alongside temperature logs. In the river valley, where many high-end residential excavations cut into the Saskatchewan Sands and Gravels, water inflow can destabilize the face within hours. We have learned to install real-time piezometric alarms in those settings, tying the trigger levels directly to the contractor's emergency response plan.</p></section><section class="block mid-cta-b890" style="padding:2rem 0"><div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center"><h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Need a geotechnical assessment?</h3><p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Reply within 24h.</p><div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnicalengineering.xyz" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contact@geotechnicalengineering.xyz</a></div></div></section><div class="normas"><strong>Applicable standards:</strong> NBCC 2015 Part 4 – Structural Design, CSA A23.3-14 – Design of Concrete Structures (excavation support), ASTM D6230-13 – Inclinometer Monitoring, City of Edmonton Drainage Bylaw 18093 – Adjacent Property Protection, Alberta OH&S Code Part 22 – Excavations and Tunnels </div><section><h2>Our services</h2><p>We provide a full instrumentation package that goes beyond placing a few settlement points on the sidewalk. Our Edmonton monitoring work covers the entire lifecycle of the excavation, from pre-construction condition surveys to post-backfill verification readings.</p><style>/*afx*/.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}
+.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}
+.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#D4A017;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}
+.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}
+.servicios-grid a.servicio-link:hover{border-color:#D4A017;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}
+.servicios-grid a.servicio-link:hover h3{color:#D4A017}
+.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}
+/*sbhfix*/aside .sb-home{color:#FFF !important}</style><div class="servicios-grid"><div class="servicio"><h3>Inclinometer installation and reading</h3><p>Casing installed through overburden into stable till or bedrock. Readings taken with a digital MEMS probe and plotted as cumulative deflection versus depth, with alarm thresholds flagged per the engineer's specification.</p></div><div class="servicio"><h3>Piezometric and groundwater monitoring</h3><p>Vibrating wire piezometers grouted into discrete zones within the till or sand layers. Data loggers upload readings hourly, with SMS alerts if pore pressure exceeds the dewatering system's design capacity.</p></div><div class="servicio"><h3>Crack and vibration surveys</h3><p>Pre-construction condition documentation on all adjacent structures within the zone of influence, including Avongard crack gauges, photogrammetric records, and triaxial geophone monitoring during rock removal.</p></div><div class="servicio"><h3>Automated total station networks</h3><p>Robotic total stations tracking prism targets on shoring, adjacent buildings, and utility bridges. Data is processed overnight and delivered as a web-based report showing 3D displacement vectors and rate-of-change graphs.</p></div></div></section><section><h2>Questions and answers</h2><details><summary>How much does excavation monitoring cost for a typical Edmonton infill project?</summary><p>For a single-family infill excavation with one inclinometer casing, two piezometers, and monthly readings over a six-month construction period, budgets typically run between CA$1,100 and CA$3,690. The spread depends on access conditions in older neighborhoods like Westmount or Glenora, whether we are monitoring a neighboring heritage home, and the reporting frequency the engineer requires.</p></details><details><summary>When does the City of Edmonton require a monitoring program?</summary><p>The requirement usually comes from the geotechnical engineer of record rather than the city directly, but Edmonton's permitting process will flag any excavation deeper than three metres adjacent to a public right-of-way or an existing building. The Drainage Bylaw also triggers the need for a pre-construction condition survey if dewatering could influence settlement on neighboring properties.</p></details><details><summary>What instruments do you use in glacial till versus river valley sands?</summary><p>In glacial till we rely heavily on inclinometers and standpipe piezometers because the low permeability gives us time to react to pressure changes. In the Saskatchewan Sands and Gravels of the river valley, we add vibrating wire piezometers with real-time telemetry and automated total station prisms because the material can drain quickly and deform with little warning once the water table is breached.</p></details><details><summary>How do you handle monitoring during Edmonton's winter months?</summary><p>Frost penetration here can exceed two metres in an open excavation. We protect inclinometer casings with insulated enclosures and extend the bottom of the casing well below the frost zone. Crack gauges on adjacent buildings are read alongside temperature sensors so we can separate thermal expansion and contraction of the structure from real excavation-induced movement.</p></details></section><section><h2>Coverage in Edmonton</h2><link rel="stylesheet" href="/css/leaflet-f859.css"/><div id="mapa-ciudad"></div><script src="/js/leaflet-f859.js"></script><script>
+var map = L.map('mapa-ciudad').setView([53.5462,-113.4912], 12);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',{attribution:'&copy; OSM &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);L.marker([53.5462,-113.4912],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36]})}).addTo(map);
+L.circle([53.5462,-113.4912],{radius:3000,color:'#D4A017',fillColor:'#EAB308',fillOpacity:0.18,weight:2}).addTo(map).bindPopup('Coverage area — Edmonton');
+</script></section></main></div></div><footer style="background:#0C1B33;color:rgba(255,255,255,.85);padding:3rem 1.5rem 2rem"><div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:2rem"><div><h4 style="color:#FFF;font-size:1rem;margin:0 0 .8rem">GEOTECHNICALENGINEERING</h4><p style="margin:0;font-size:.9rem;color:rgba(255,255,255,.7);line-height:1.6">Edmonton, Canada</p></div><div><h4 style="color:#FFF;font-size:.92rem;margin:0 0 .8rem">SERVICES</h4><a href="/" style="color:rgba(255,255,255,.75);text-decoration:none;display:block;padding:.25rem 0">Services</a></div><div><h4 style="color:#FFF;font-size:.92rem;margin:0 0 .8rem">CONTACT</h4><p style="margin:0;font-size:.9rem;line-height:1.8"><a href="mailto:contact@geotechnicalengineering.xyz" style="color:#FFF;text-decoration:none">contact@geotechnicalengineering.xyz</a></p></div></div><div style="max-width:1100px;margin:2rem auto 0;padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.1);text-align:center;font-size:.8rem;color:rgba(255,255,255,.5)">© 2026 Geotechnicalengineering. All rights reserved.</div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong><a href="https://www.csagroup.org/" rel="nofollow noopener" target="_blank">CSA Group Standards</a> · <a href="https://www.astm.org/products-services/standards-and-publications.html" rel="nofollow noopener" target="_blank">ASTM Standards</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-03-25" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-03-25</div></footer><script>
 // Sidebar cat-toggle: click expande/contrae cat-sub (REGLA 30b)
 document.addEventListener('click', function(e) {
-    var btn = e.target.closest('.cat-toggle');
-    if (!btn) return;
-    e.preventDefault();
-    var item = btn.closest('.cat-item');
-    if (!item) return;
-    var sub = item.querySelector('.cat-sub');
-    if (!sub) return;
-    var open = btn.getAttribute('aria-expanded') === 'true';
-    btn.setAttribute('aria-expanded', open ? 'false' : 'true');
-    if (open) {
-        sub.setAttribute('hidden', '');
-    } else {
-        sub.removeAttribute('hidden');
-    }
+var btn = e.target.closest('.cat-toggle');
+if (!btn) return;
+e.preventDefault();
+var item = btn.closest('.cat-item');
+if (!item) return;
+var sub = item.querySelector('.cat-sub');
+if (!sub) return;
+var open = btn.getAttribute('aria-expanded') === 'true';
+btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+if (open) {
+sub.setAttribute('hidden', '');
+} else {
+sub.removeAttribute('hidden');
+}
 });
-</script>
-</body>
-</html>
+</script></body></html>
